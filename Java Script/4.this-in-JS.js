@@ -29,7 +29,7 @@ function sayNameForAll() {
 }
 
 let p1 = {
-    name: 'Nag',
+    name: 'Praveen',
     sayName: sayNameForAll
 }
 let p2 = {
@@ -53,7 +53,7 @@ function doTraining(sub, duration, location) {
     console.log(`The Tnr-${this.name}, teaching ${sub}-${duration} days in ${location}`);
 }
 
-let tnr1 = { name: 'Nag' }
+let tnr1 = { name: 'Praveen' }
 Object.preventExtensions(tnr1);
 
 tnr.doTraining = doTraining; // Error
@@ -96,7 +96,7 @@ func.call(o2);   // dynamic
 // ---------------------------------------------------------
 
 let tnr = {
-    name: 'Nag',
+    name: 'Praveen',
     doTeach: function () {
         console.log(this.name + " teaching .js");
         let self = this;
@@ -126,7 +126,7 @@ learnFunc.call(emp)
 let pName = "Global";
 
 let person = {
-    pName: 'Nag',
+    pName: 'Praveen',
     sayName: function () {
         let pName = "Local";
         console.log("im " + pName);
@@ -170,7 +170,7 @@ function sessionStart() {
         console.log(this.name + " working after learn");
     }
 
-    let tnr = new Trainer('Nag')
+    let tnr = new Trainer('Praveen')
     let e1 = new Employee('E1')
     let e2 = new Employee('E2')
 

@@ -60,7 +60,7 @@ class Boss extends Employee {
     }
 }
 
-let boss = new Boss('Nag', 35, 1000)
+let boss = new Boss('Praveen', 35, 1000)
 
 // -------------------------------------------
 
@@ -87,7 +87,7 @@ let abc = new Abc();
 let person = {
 
     // data-properties
-    _name: 'Nag',
+    _name: 'Praveen',
     _age: 35,
 
     // accessor properties
@@ -104,7 +104,7 @@ let person = {
 
 
 
-person.name = "Nag N"
+person.name = "Praveen N"
 console.log(person.name)
 
 

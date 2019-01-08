@@ -208,7 +208,7 @@ learnFunc()
 
 function teach(sub) {
         console.log(`teaching ${sub}`);
-        let notes = `${sub}-notes`
+        let notes = `${sub} - notes`
         let fun = "bla bla";
         function learn() {
                 console.log(`learning ${notes}`);
