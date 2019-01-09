@@ -83,6 +83,12 @@ problems/limitations with plain-js ( your-code ) with browser-apis
     ==> using server-side page techonolgies
 
             i.e JSP, ASP, PHP , freemarker, Rails,..,...,....
+
+
+
+
+
+            
     
     
     Problems:
@@ -154,8 +160,8 @@ problems/limitations with plain-js ( your-code ) with browser-apis
         component-arch based lib & F.w
         -----------------------------------------        
 
-        1. react.js    from facebook       : v16   ( our focus  )
-        2. Angular     from google-team    : v7
+        1. react.js    from facebook       : v16   
+        2. Angular     from google-team    : v7  ( our focus  )
 
         3. Vue.js
         4. Ember.js
@@ -323,8 +329,23 @@ summary
 
 ---------------------------------------------------------------------------
 
+Angular
+-------------------
+        - angular cli
+        - components
+        - data Binding
+        - directives
+        - Forms
+        - validations
+        - filters
+        - services
+        - server Communication
+        - routers
+        - case study on Angular
 
 
+React JS
+--------------
         - react-lib api
         - case-study with react-only
         - redux
