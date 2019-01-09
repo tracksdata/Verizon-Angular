@@ -1,7 +1,17 @@
 <div class="container mt-3 alert bg-info">
   <h1>Welcome to APP2</h1>
-  <button class="btn btn-primary btn-space">Click Here</button>
+  <h2>Hello {{name | uppercase}} </h2>
+  <input name='ename' #s1 type="text" [(ngModel)]=name >
+  <img [src]=imgUrl/>
+  <button class="btn btn-primary btn-space" (click)='test()'>Click Here</button>
   <button class="btn btn-success btn-space">Click Here</button>
+
+<hr/>
+
+<h3>Name: {{emp.ename}}</h3>
+<h3>Age: {{emp.age}}</h3>
+<h3>Salary: {{emp.salary}}</h3>
+<h3>Name: {{s1.value}}</h3>
 </div>
 
 <hr/>

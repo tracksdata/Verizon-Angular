@@ -6,4 +6,23 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+
+  name='James';
+  ename:string;
+  age:number;
+  imgUrl="https://upload.wikimedia.org/wikipedia/en/f/f6/Tom_Tom_and_Jerry.png";
+
+  emp={
+    ename:'Praveen',
+    age:76,
+    salary:844885
+  }
+
+  test(){
+    console.log('--- Clicked...');
+  }
+
+
+
+
 }
