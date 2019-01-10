@@ -1,0 +1,24 @@
+<div class='container mt-4'>
+
+
+<div class='card'>
+<div class='card-header bg-primary text-center'>
+  <h2>Counter APP</h2>
+</div>
+
+<div class='card-body text-center'>
+<app-counter btnLbl='+10' (totalCount)='getTotal(10)' ></app-counter>
+<app-counter btnLbl='+20' (totalCount)='getTotal(20)'></app-counter>
+<app-counter btnLbl='-5' (totalCount)='getTotal(-5)'></app-counter>
+<app-counter btnLbl='-10'(totalCount)='getTotal(-10)'></app-counter>
+<hr/>
+<h3>Total: {{totalCount}}</h3>
+</div>
+
+
+
+
+</div>
+
+</div>
+

@@ -1,0 +1,14 @@
+<div class='container mt-4'>
+<div class='alert bg-info text-center' >
+  <h1>MY-APP</h1>
+  <h2>{{childMessage}}</h2>
+  <button class='btn btn-info' (click)="greet('Good Morning')">Greet</button> <br/>
+  Hide/Unhide: <input type="checkbox" (change)="myData($event)">
+  <div [hidden]=status class='alert bg-primary'>
+    Div Content
+  </div>
+</div>
+
+</div>
+
+<app-greet [dispMessage]=greetMessage (outMsg)="childGreet($event)"></app-greet>

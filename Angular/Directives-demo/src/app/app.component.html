@@ -1,0 +1,41 @@
+<div class="container mt-3 alert bg-default">
+  
+  <h1>Welcome to my APP</h1>
+
+  <ul *ngFor="let name of names">
+  
+    <li>{{name}}</li>
+
+  </ul>
+
+  <select name="bla">
+  <option *ngFor="let name of names">{{name}}</option>
+</select>
+<br/>
+
+<span *ngFor="let name of names">
+  <input type="checkbox"> {{name}}
+</span>
+  <table class="table table-small">
+
+    <tr>
+      <th>Id</th>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Email</th>
+    </tr>
+
+    <tr *ngFor="let emp of employees">
+      <td>{{emp.id}}</td>
+      <td>{{emp.first_name}}</td>
+      <td>{{emp.last_name}}</td>
+      <td>{{emp.email}}</td>
+
+    </tr>
+
+
+  </table>
+
+</div>
+
+

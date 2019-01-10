@@ -1,0 +1,9 @@
+<div class='container mt-4'>
+<div class='alert bg-info text-center' >
+  <h1>MY-APP</h1>
+  <h2>{{greetMessage}}</h2>
+</div>
+
+</div>
+
+<app-greet [dispMessage]=message (outputMsg)="getData($event)" ></app-greet>
