@@ -8,7 +8,11 @@ import { Component } from '@angular/core';
 export class AppComponent {
 
   names=['James','Ruth','Ben','Bucky','Rose'];
-  //employees:any[];
+  model:any={};
+   
+  
+
+
   employees=[
     {"id":1,"first_name":"Erich","last_name":"Philipeau","email":"ephilipeau0@businessinsider.com"},
     {"id":2,"first_name":"Hetti","last_name":"Simoncelli","email":"hsimoncelli1@miitbeian.gov.cn"},
@@ -31,6 +35,10 @@ export class AppComponent {
     {"id":19,"first_name":"Dukey","last_name":"Gulvin","email":"dgulvini@etsy.com"},
     {"id":20,"first_name":"Marlyn","last_name":"Blackett","email":"mblackettj@berkeley.edu"}
   ];
+
+  test1(f1){
+    console.log(JSON.stringify(f1));
+  }
 
   
 

@@ -1,0 +1,37 @@
+<div class="container mt-4">
+
+  <!-- As a link -->
+<nav class="navbar navbar-light bg-primary">
+    <a class="navbar-brand" routerLink='/'>Product APP</a>
+</nav>
+  
+
+<div class="row">
+
+  <div class="col-3 col-md-3 col-sd-3 mt-4">
+      <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link active" routerLink=''>Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink='/list-all'>List All</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink='/add-new'>Add New</a>
+          </li>
+        
+        </ul>
+
+  </div>
+
+  <div class="col-9 col-md-9 col-sd-9 mt-4">
+
+   <router-outlet></router-outlet>
+
+  </div>
+
+</div>
+
+ 
+
+</div>

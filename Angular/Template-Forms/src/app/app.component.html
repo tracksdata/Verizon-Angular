@@ -1,0 +1,27 @@
+<div class="container mt-3 alert bg-info">
+  <h1>Welcome to Angular</h1>
+ 
+  <div>
+      <form>
+
+       <div>
+          <label for="">First Name</label>
+          <input type="text" name='firstName'  class='form-control'>
+       </div>
+
+       <div>
+          <label for="">Last Name</label>
+          <input type="text" name='lastName' [(ngModel)]="emp.lastName" class='form-control'>
+       </div>
+
+       <div>
+         <button class='btn btn-primary form-control' (click)='test(model)'>Save</button>
+       </div>
+       
+      </form>
+
+  </div>
+
+</div>
+
+
